@@ -3,22 +3,22 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "enterpriseScaleCompanyPrefix": {
-      "value": "contoso"
+      "value": "MG-Stryker"
     },
     "platformManagementGroup": {
-      "value": "contoso-platform"
+      "value": "MG-Stryker-platform"
     },
     "IdentityManagementGroup": {
-      "value": "contoso-identity"
+      "value": "MG-Stryker-identity"
     },
     "managementManagementGroup": {
-      "value": "contoso-management"
+      "value": "MG-Stryker-management"
     },
     "connectivityManagementGroup": {
-      "value": "contoso-connectivity"
+      "value": "MG-Stryker-connectivity"
     },
     "LandingZoneManagementGroup": {
-      "value": "contoso-landingzones"
+      "value": "MG-Stryker-landingzones"
     },
     "enableAMBAConnectivity": {
       "value": "Yes"
@@ -45,10 +45,13 @@
       "value": {
         "ALZMonitorResourceGroupName": {
           "value": "rg-amba-monitoring-001"
+          
         },
         "ALZMonitorResourceGroupTags": {
           "value": {
-            "Project": "amba-monitoring"
+            "Project": "amba-monitoring",
+            "Cost Center": "1392",
+            "Resource Owner": "Kieran.bennett@stryker.com"
           }
         },
         "ALZMonitorResourceGroupLocation": {
@@ -59,7 +62,7 @@
     "policyAssignmentParametersNotificationAssets": {
       "value": {
         "ALZMonitorActionGroupEmail": {
-          "value": "action@mail.com"
+          "value": "devanshu.prasad@stryker.com"
         },
         "ALZLogicappResourceId": {
           "value": ""
